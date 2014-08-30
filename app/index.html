@@ -4,12 +4,10 @@
         <meta charset="utf-8">
         <title>Happy Birthday♡</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="/favicon.ico">
+        <meta name="viewport" content="minimal-ui">
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-
 
         <div class="phone">
             <div class="display">
@@ -19,26 +17,18 @@
                 <div class="appli">
                     <dl class="timer">
                         <dt>Current Time</dt>
-                        <dd id="timer">00:00:00</dd>
+                        <dd id="timer"></dd>
                     </dl>
                     <dl class="event">
-                        <dt>at <span id="place"></span></dt>
-                        <dd><span id="date"></span> <span id="title"></span></dd>
+                        <dt id="place"></dt>
+                        <dd id="event"></dd>
                     </dl>
                     <div class="bg" id="bg"></div>
-                    <div id="json"></div>
                 </div>
             </div>
         </div>
 
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>

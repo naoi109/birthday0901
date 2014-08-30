@@ -1,8 +1,8 @@
-'use strict'
+'use strict';
 
 $(function(){
   //初期
-  clock($("#timer"));
+  clock($('#timer'));
   jsonget();
 });
 
@@ -12,12 +12,12 @@ function clock(target){
   var h = d.getHours();
   var m = d.getMinutes();
   var s = d.getSeconds();
-  h = h<10?"0"+h:h;
-  m = m<10?"0"+m:m;
-  s = s<10?"0"+s:s;
-  var time_str = h + ":" + m + ":" + s;
+  h = h<10?'0'+h:h;
+  m = m<10?'0'+m:m;
+  s = s<10?'0'+s:s;
+  var time_str = h + ':' + m + ':' + s;
   target.html(time_str);
-  if(s=="00"){
+  if(s=='00'){
   	jsonget();
   }
   setTimeout(function(){
@@ -33,10 +33,15 @@ function jsonget(){
 	  dataType: 'json',
 	  success: function(json){
 		  var data_num = Math.floor( Math.random() * 3 ); //データ個数
-		  $("#place").html(json[data_num].place);
-		  $("#date").html(json[data_num].date);
-		  $("#title").html(json[data_num].title);
-		  $("#bg").html('<img src="images/photo/'+json[data_num].image_path+'.jpg">');
+		  $('#place').html('<div>at '+json[data_num].place+'</div>');
+		  $('#event').html('<div>'+json[data_num].date+' '+json[data_num].title+'</div>');
+		  $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
   	}
   });
 }
+
+//preloder
+$.event.add(window, 'load', function() {
+    $('.splash').delay(1000).fadeOut(500);
+    $('.event,.bg').addClass('animate');
+});

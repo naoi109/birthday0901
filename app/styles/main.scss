@@ -23,19 +23,24 @@ html,body,div,dl,dt,dd,img{
         overflow: hidden;
     }
     .splash{
-        display: none;
+        position: absolute;
+        z-index: 901;
+        background-color: #ff5294;
     }
     .appli{
         position: relative;
         background-color: #000;
     }
     .bg{
-        img{
-            position: absolute;
-            height: 568px;
-            top: 0;
-            left: 50%;
-            margin-left: -213px;
+        &.animate{
+            img{
+                position: absolute;
+                height: 568px;
+                top: 0;
+                left: 50%;
+                margin-left: -213px;
+                animation: bg 1s ease;
+            }
         }
     }
     .timer{
@@ -58,9 +63,12 @@ html,body,div,dl,dt,dd,img{
         position: absolute;
         z-index: 1;
         right: 0;
-        bottom: 20px;
+        bottom: 25px;
         text-align: right;
         font-family: 'Montserrat', sans-serif;
+        dt div,dd div{
+            opacity: 0;
+        }
         dt{
             font-size: 14px;
             padding: 10px 8px;
@@ -71,5 +79,29 @@ html,body,div,dl,dt,dd,img{
             padding: 10px;
             display: inline-block;
         }
+        &.animate{
+            dt{
+                div{
+                    animation: data 1s ease 1s;
+                    animation-fill-mode: both;
+                }
+            }
+            dd{
+                animation: bg 1s ease 1.5s;
+                animation-fill-mode: both;
+                div{
+                    animation: data 1s ease 1.5s;
+                    animation-fill-mode: both;
+                }
+            }
+        }
     }
+}
+@keyframes bg {
+    0% { opacity:0;}
+    100% { opacity:1;}
+}
+@keyframes data {
+    0% { opacity:0; transform: translate(-10px,0);}
+    100% { opacity:1; transform: translate(0,0);}
 }
