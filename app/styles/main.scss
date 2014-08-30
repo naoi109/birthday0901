@@ -13,8 +13,11 @@ html,body,div,dl,dt,dd,img{
     vertical-align: middle;
 }
 
-.display{
+.phone,.display{
     width: 320px;
+}
+
+.display{
     .splash,.appli{
         height: 568px;
         overflow: hidden;
@@ -25,6 +28,8 @@ html,body,div,dl,dt,dd,img{
     .appli{
         position: relative;
         background-color: #000;
+    }
+    .bg{
         img{
             position: absolute;
             height: 568px;
@@ -54,16 +59,17 @@ html,body,div,dl,dt,dd,img{
         z-index: 1;
         right: 0;
         bottom: 20px;
+        text-align: right;
         font-family: 'Montserrat', sans-serif;
         dt{
-            font-size: 18px;
-            text-align: right;
-            padding: 10px;
+            font-size: 14px;
+            padding: 10px 8px;
         }
         dd{
-            font-size: 20px;
+            font-size: 18px;
             background-color: #ff5294;
             padding: 10px;
+            display: inline-block;
         }
     }
 }

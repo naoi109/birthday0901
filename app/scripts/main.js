@@ -1,23 +1,42 @@
 'use strict'
 
 $(function(){
-	clock($("#timer"));
-
-	function clock(target){
-		var d = new Date();
-		var h = d.getHours();
-		var m = d.getMinutes();
-		var s = d.getSeconds();
-		h = h<10?"0"+h:h;
-		m = m<10?"0"+m:m;
-		s = s<10?"0"+s:s;
-		var time_str = h + ":" + m + ":" + s;
-		target.html(time_str);
-		if(s=="00"){
-			console.log("aaaa");
-		}
-		setTimeout(function(){
-			clock(target)
-		},1000);
-	}
+  //初期
+  clock($("#timer"));
+  jsonget();
 });
+
+//時計
+function clock(target){
+  var d = new Date();
+  var h = d.getHours();
+  var m = d.getMinutes();
+  var s = d.getSeconds();
+  h = h<10?"0"+h:h;
+  m = m<10?"0"+m:m;
+  s = s<10?"0"+s:s;
+  var time_str = h + ":" + m + ":" + s;
+  target.html(time_str);
+  if(s=="00"){
+  	jsonget();
+  }
+  setTimeout(function(){
+  	clock(target)
+  },1000);
+}
+
+//JSONからデータ取得
+function jsonget(){
+  $.ajax({
+	  type: 'GET',
+	  url: 'scripts/data.json',
+	  dataType: 'json',
+	  success: function(json){
+		  var data_num = Math.floor( Math.random() * 3 ); //データ個数
+		  $("#place").html(json[data_num].place);
+		  $("#date").html(json[data_num].date);
+		  $("#title").html(json[data_num].title);
+		  $("#bg").html('<img src="images/photo/'+json[data_num].image_path+'.jpg">');
+  	}
+  });
+}

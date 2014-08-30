@@ -1,7 +1,20 @@
-var data = [
-    { "image_path": "130907_01", "place": "Shinjuku BLAZE", "date": "9/7", "event": "TANO*C 10th Anniversary" },
-    { "image_path": "130922_01", "place": "ECO EDO Nihonbashi", "date": "9/22", "event": "Art Aquarium" },
-    { "image_path": "130922_02", "place": "ECO EDO Nihonbashi", "date": "9/22", "event": "Art Aquarium" },
-    { "image_path": "130922_03", "place": "ECO EDO Nihonbashi", "date": "9/22", "event": "Art Aquarium" },
-    { "image_path": "140824_11", "place": "Shibuya WOMB", "date": "8/24", "event": "S2TB Gathering" }
+[
+    {
+      "date": "9/7",
+      "place": "Shinjuku BLAZE",
+      "title": "TANO*C 10th Anniversary",
+      "image_path": "130907_01"
+  },
+  {
+      "date": "9/22",
+      "place": "ECO EDO Nihonbashi",
+      "title": "Art Aquarium",
+      "image_path": "130922_01"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_11"
+  }
 ]
