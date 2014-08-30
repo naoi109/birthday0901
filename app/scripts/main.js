@@ -36,12 +36,17 @@ function jsonget(){
 		  $('#place').html('<div>at '+json[data_num].place+'</div>');
 		  $('#event').html('<div>'+json[data_num].date+' '+json[data_num].title+'</div>');
 		  $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
+      $('.bg img').hide();
+      $('.bg img').load(function(){
+        console.log('finish');
+        $('.bg img').show();
+        $('.bg').addClass('animate');
+      });
   	}
   });
 }
 
 //preloder
 $.event.add(window, 'load', function() {
-    $('.splash').delay(1000).fadeOut(500);
-    $('.event,.bg').addClass('animate');
+    $('.event').addClass('animate');
 });
