@@ -15,4 +15,13 @@ html,body,div,img{
 
 .display{
     width: 320px;
+    .splash,.appli{
+        height: 568px;
+    }
+    .splash{
+        display: none;
+    }
+    .appli{
+        background-color: #000;
+    }
 }
