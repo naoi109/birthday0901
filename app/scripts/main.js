@@ -38,7 +38,6 @@ function jsonget(){
 		  $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
       $('.bg img').hide();
       $('.bg img').load(function(){
-        console.log('finish');
         $('.bg img').show();
         $('.bg').addClass('animate');
       });

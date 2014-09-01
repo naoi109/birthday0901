@@ -12,10 +12,316 @@
       "image_path": "130922_01"
   },
   {
+      "date": "9/22",
+      "place": "ECO EDO Nihonbashi",
+      "title": "Art Aquarium",
+      "image_path": "130922_02"
+  },
+  {
+      "date": "9/22",
+      "place": "ECO EDO Nihonbashi",
+      "title": "Art Aquarium",
+      "image_path": "130922_03"
+  },
+  {
+      "date": "12/20",
+      "place": "Akihabara MOGRA",
+      "title": "WEEKENDRAVERS v.5",
+      "image_path": "131220_01"
+  },
+  {
+      "date": "12/20",
+      "place": "Akihabara MOGRA",
+      "title": "WEEKENDRAVERS v.3",
+      "image_path": "131220_02"
+  },
+  {
+      "date": "12/23",
+      "place": "Shibuya asia",
+      "title": "TOKYO HARD GROOVE SESSION '13",
+      "image_path": "131223_01"
+  },
+  {
+      "date": "12/23",
+      "place": "Shibuya asia",
+      "title": "TOKYO HARD GROOVE SESSION '13",
+      "image_path": "131223_02"
+  },
+  {
+      "date": "12/23",
+      "place": "Shibuya asia",
+      "title": "TOKYO HARD GROOVE SESSION '13",
+      "image_path": "131223_03"
+  },
+  {
+      "date": "2/1",
+      "place": "Shibuya WOMB",
+      "title": "TANO*C RELEASE PARTY",
+      "image_path": "140201_01"
+  },
+  {
+      "date": "3/1",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.4",
+      "image_path": "140301_01"
+  },
+  {
+      "date": "3/1",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.4",
+      "image_path": "140301_02"
+  },
+  {
+      "date": "3/1",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.4",
+      "image_path": "140301_03"
+  },
+  {
+      "date": "3/8",
+      "place": "JICOO",
+      "title": "Space Traveller",
+      "image_path": "140308_01"
+  },
+  {
+      "date": "3/8",
+      "place": "JICOO",
+      "title": "Space Traveller",
+      "image_path": "140308_02"
+  },
+  {
+      "date": "3/8",
+      "place": "JICOO",
+      "title": "Space Traveller",
+      "image_path": "140308_03"
+  },
+  {
+      "date": "3/14",
+      "place": "Shinkiba AgeHa",
+      "title": "TJOとワイパと愉快な仲間達",
+      "image_path": "140315_01"
+  },
+  {
+      "date": "3/14",
+      "place": "Shinkiba AgeHa",
+      "title": "TJOとワイパと愉快な仲間達",
+      "image_path": "140315_02"
+  },
+  {
+      "date": "3/14",
+      "place": "Shinkiba AgeHa",
+      "title": "TJOとワイパと愉快な仲間達",
+      "image_path": "140315_03"
+  },
+  {
+      "date": "3/14",
+      "place": "Aoyama EVER",
+      "title": "AMAIMONONIGHT",
+      "image_path": "140412_01"
+  },
+  {
+      "date": "5/4",
+      "place": "Akihabara MOGRA",
+      "title": "WEEKENDRAVERS v.5",
+      "image_path": "140504_01"
+  },
+  {
+      "date": "5/4",
+      "place": "Akihabara MOGRA",
+      "title": "WEEKENDRAVERS v.5",
+      "image_path": "140504_02"
+  },
+  {
+      "date": "5/11",
+      "place": "MOtOLOiD@2.5 D",
+      "title": "DJ'TEKINA//SOMETHING Release Party",
+      "image_path": "140511_01"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_01"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_02"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_03"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_04"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_05"
+  },
+  {
+      "date": "7/4",
+      "place": "Shinkiba AgeHa",
+      "title": "Wonderland",
+      "image_path": "1400705_06"
+  },
+  {
+      "date": "7/25",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.6",
+      "image_path": "1400725_01"
+  },
+  {
+      "date": "7/25",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.6",
+      "image_path": "1400725_02"
+  },
+  {
+      "date": "7/25",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.6",
+      "image_path": "1400725_03"
+  },
+  {
+      "date": "7/25",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.6",
+      "image_path": "1400725_04"
+  },
+  {
+      "date": "7/25",
+      "place": "Shibuya asia",
+      "title": "WEEKENDRAVERS v.6",
+      "image_path": "1400725_05"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_01"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_02"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_03"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_04"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_05"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_06"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_07"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_08"
+  },
+  {
       "date": "8/15",
       "place": "Makuhari MESSE",
       "title": "SONIC MANIA",
       "image_path": "140815_09"
+  },
+  {
+      "date": "8/15",
+      "place": "Makuhari MESSE",
+      "title": "SONIC MANIA",
+      "image_path": "140815_10"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_01"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_02"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_03"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_04"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_05"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_06"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_07"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_08"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_09"
+  },
+  {
+      "date": "8/24",
+      "place": "Shibuya WOMB",
+      "title": "S2TB Gathering",
+      "image_path": "140824_10"
   },
   {
       "date": "8/24",
