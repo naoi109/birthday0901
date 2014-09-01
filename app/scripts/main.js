@@ -17,31 +17,31 @@ function clock(target){
   s = s<10?'0'+s:s;
   var time_str = h + ':' + m + ':' + s;
   target.html(time_str);
-  if(s=='00'){
-  	jsonget();
+  if(s=='00'||s=='30'){
+    jsonget();
   }
   setTimeout(function(){
-  	clock(target)
+    clock(target)
   },1000);
 }
 
 //JSONからデータ取得
 function jsonget(){
   $.ajax({
-	  type: 'GET',
-	  url: 'scripts/data.json',
-	  dataType: 'json',
-	  success: function(json){
-		  var data_num = Math.floor( Math.random() * 3 ); //データ個数
-		  $('#place').html('<div>at '+json[data_num].place+'</div>');
-		  $('#event').html('<div>'+json[data_num].date+' '+json[data_num].title+'</div>');
-		  $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
+    type: 'GET',
+    url: 'scripts/data.json',
+    dataType: 'json',
+    success: function(json){
+      var data_num = Math.floor( Math.random() * 3 ); //データ個数
+      $('#place').html('<div>at '+json[data_num].place+'</div>');
+      $('#event').html('<div>'+json[data_num].date+' '+json[data_num].title+'</div>');
+      $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
       $('.bg img').hide();
       $('.bg img').load(function(){
         $('.bg img').show();
         $('.bg').addClass('animate');
       });
-  	}
+    }
   });
 }
 
