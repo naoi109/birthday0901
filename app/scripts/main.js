@@ -3,7 +3,7 @@
 $(function(){
   //初期
   clock($('#timer'));
-  jsonget();
+  jsonGet();
 });
 
 //時計
@@ -26,7 +26,7 @@ function clock(target){
 }
 
 //JSONからデータ取得
-function jsonget(){
+function jsonGet(){
   $.ajax({
     type: 'GET',
     url: 'scripts/data.json',
