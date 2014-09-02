@@ -26,14 +26,8 @@
   {
       "date": "12/20",
       "place": "Akihabara MOGRA",
-      "title": "WEEKENDRAVERS v.5",
-      "image_path": "131220_01"
-  },
-  {
-      "date": "12/20",
-      "place": "Akihabara MOGRA",
       "title": "WEEKENDRAVERS v.3",
-      "image_path": "131220_02"
+      "image_path": "131220_01"
   },
   {
       "date": "12/23",
@@ -52,6 +46,12 @@
       "place": "club asia",
       "title": "TOKYO HARD GROOVE SESSION '13",
       "image_path": "131223_03"
+  },
+  {
+      "date": "12/23",
+      "place": "club asia",
+      "title": "TOKYO HARD GROOVE SESSION '13",
+      "image_path": "131223_04"
   },
   {
       "date": "2/1",
@@ -138,39 +138,39 @@
       "image_path": "140511_01"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_01"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_02"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_03"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_04"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_05"
   },
   {
-      "date": "7/4",
+      "date": "7/5",
       "place": "Shinkiba AgeHa",
-      "title": "Wonderland",
+      "title": "THE WONDERLAND",
       "image_path": "140705_06"
   },
   {
