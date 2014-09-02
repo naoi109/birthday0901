@@ -85,6 +85,7 @@ html,body,div,dl,dt,dd,img{
             background-color: #ff5294;
             padding: 10px;
             display: inline-block;
+            text-align: left;
         }
         &.animate{
             dt{
@@ -119,7 +120,7 @@ html,body,div,dl,dt,dd,img{
     .display{
         margin: 0 auto;
         position: relative;
-        left: 2px;
+        left: 3px;
         .timer{
             top: 20px;
         }

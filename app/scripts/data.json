@@ -26,7 +26,7 @@
   {
       "date": "12/20",
       "place": "Akihabara MOGRA",
-      "title": "WEEKENDRAVERS v.3",
+      "title": "WEEKEND RAVERS v.3",
       "image_path": "131220_01"
   },
   {
@@ -62,19 +62,19 @@
   {
       "date": "3/1",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.4",
+      "title": "WEEKEND RAVERS v.4",
       "image_path": "140301_01"
   },
   {
       "date": "3/1",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.4",
+      "title": "WEEKEND RAVERS v.4",
       "image_path": "140301_02"
   },
   {
       "date": "3/1",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.4",
+      "title": "WEEKEND RAVERS v.4",
       "image_path": "140301_03"
   },
   {
@@ -122,13 +122,13 @@
   {
       "date": "5/4",
       "place": "Akihabara MOGRA",
-      "title": "WEEKENDRAVERS v.5",
+      "title": "WEEKEND RAVERS v.5",
       "image_path": "140504_01"
   },
   {
       "date": "5/4",
       "place": "Akihabara MOGRA",
-      "title": "WEEKENDRAVERS v.5",
+      "title": "WEEKEND RAVERS v.5",
       "image_path": "140504_02"
   },
   {
@@ -176,31 +176,31 @@
   {
       "date": "7/25",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.6",
+      "title": "WEEKEND RAVERS v.6",
       "image_path": "140725_01"
   },
   {
       "date": "7/25",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.6",
+      "title": "WEEKEND RAVERS v.6",
       "image_path": "140725_02"
   },
   {
       "date": "7/25",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.6",
+      "title": "WEEKEND RAVERS v.6",
       "image_path": "140725_03"
   },
   {
       "date": "7/25",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.6",
+      "title": "WEEKEND RAVERS v.6",
       "image_path": "140725_04"
   },
   {
       "date": "7/25",
       "place": "club asia",
-      "title": "WEEKENDRAVERS v.6",
+      "title": "WEEKEND RAVERS v.6",
       "image_path": "140725_05"
   },
   {
@@ -328,5 +328,17 @@
       "place": "Shibuya WOMB",
       "title": "S2TB Gathering",
       "image_path": "140824_11"
+  },
+  {
+      "date": "8/31",
+      "place": "Sanuma SUN BEACH",
+      "title": "WEEKEND RAVERS v.7",
+      "image_path": "140831_01"
+  },
+  {
+      "date": "8/31",
+      "place": "Sanuma SUN BEACH",
+      "title": "WEEKEND RAVERS v.7",
+      "image_path": "140831_02"
   }
 ]

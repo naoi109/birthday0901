@@ -18,7 +18,7 @@ function clock(target){
   var time_str = h + ':' + m + ':' + s;
   target.html(time_str);
   if(s=='00'||s=='30'){
-    jsonget();
+    jsonGet();
   }
   setTimeout(function(){
     clock(target)
