@@ -105,6 +105,7 @@ html,body,div,dl,dt,dd,img{
     }
 }
 
+//pc only
 @media (min-width: 768px) {
     .phone{
         width: 381px;
@@ -119,6 +120,9 @@ html,body,div,dl,dt,dd,img{
         margin: 0 auto;
         position: relative;
         left: 2px;
+        .timer{
+            top: 20px;
+        }
     }
 }
 
