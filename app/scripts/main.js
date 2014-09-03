@@ -32,7 +32,7 @@ function jsonGet(){
     url: 'scripts/data.json',
     dataType: 'json',
     success: function(json){
-      var data_num = Math.floor( Math.random() * 3 ); //データ個数
+      var data_num = Math.floor( Math.random() * 57 ); //データ個数
       $('#place').html('<div>at '+json[data_num].place+'</div>');
       $('#event').html('<div>'+json[data_num].date+' '+json[data_num].title+'</div>');
       $('#bg').html('<img src="'+'images/photo/'+json[data_num].image_path+'.jpg">');
